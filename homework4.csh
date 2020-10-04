@@ -1,8 +1,8 @@
 #!/bin/tcsh
 
-## Department of Physics
-## 2013020014
-## Kim Taiwoo
+### Department of Physics
+### 2013020014
+### Kim Taiwoo
 
 
 ## set your argument
