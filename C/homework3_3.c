@@ -15,17 +15,12 @@ int main(void)
 	printf("This is a program for positive integer to change negative integer \n");
 	printf("input an integer \n");
 	scanf("%d", &i);
+	
 
-	// negative integer check
-	if (i <= 0)
-	{
-		printf("only positive integer T.T \n"); // print error
-	}
-	else
-	{	
-		j = ~i + 1; // change negative
-		printf("result is %d \n", j); // print result
-	}
+	// positive to negative
+	j = ~i + 1;
+
+	i <= 0 ? printf("only positive integer T.T \n") :  printf("result is %d \n",j);
 
 	return 0;
 }
