@@ -25,11 +25,11 @@ int main(void)
 	float r2;
 
 	// calculation
-	r1 = (i > j) ? i : j;
-	r2 = (r1 > k) ? r1 : k;
+	r1 = (i < j) ? i : j;
+	r2 = (r1 < k) ? r1 : k;
 
 	// print results
-	printf("most largest value is %f \n", r2);
+	printf("most smallest value is %f \n", r2);
 
 	return 0;
 }

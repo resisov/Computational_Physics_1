@@ -27,6 +27,10 @@ int main(void)
 	x1 = (-b + sqrt(b*b-4.0*a*c)) / 2.0 / a;
 	x2 = (-b - sqrt(b*b-4.0*a*c)) / 2.0 / a;
 
+	// Discriminant
+	float Di;
+	Di = b*b-4.0*a*c;
+
 	// define real term and imaginary term for imaginary root
 	float Re;
 	float Im;
@@ -36,7 +40,7 @@ int main(void)
 	Im = sqrt(-(b*b-4.0*a*c)) / (2.0 * a);
 
 	// print results
-	b*b-4.0*a*c > 0 ? printf("Real and unequal root \n x1 = %f \n x2 = %f \n", x1, x2) : b*b-4.0*a*c < 0 ? printf("Unequal and imaginary root\n x1 = %f + %f i\n x2 = %f - %f i\n",Re, Im, Re, Im) : printf("Real and Equal root\n x1 = x2 = %f \n", x1);
+	Di > 0 ? printf("Real and unequal root \n x1 = %f \n x2 = %f \n", x1, x2) : Di < 0 ? printf("Unequal and imaginary root\n x1 = %f + %f i\n x2 = %f - %f i\n",Re, Im, Re, Im) : printf("Real and Equal root\n x1 = x2 = %f \n", x1);
 
 
 	
