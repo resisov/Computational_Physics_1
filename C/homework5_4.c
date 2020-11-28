@@ -13,7 +13,7 @@ int main()
 	// set variables
 	int i;
 	int j;
-	int sum;
+	int sum=0;
 
 	// Loop for summation of row
 	for (i=0;i<4;i++)
