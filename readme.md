@@ -10,4 +10,8 @@ homework 4 -> C/homework4_*
 
 homework 5 -> C/homework5_*
 
+homework 6 -> root/homework5_*
+
  -> Data -> C/data/
+ 
+ -> Data -> root/data/
